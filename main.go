@@ -53,7 +53,7 @@ func handleListUsersJSON(w http.ResponseWriter, req *http.Request) {
 		fmt.Println(err)
 		return
 	}
-	fmt.Fprint(w, "hello")
+	fmt.Fprint(w, "hello 22")
 	json.NewEncoder(w).Encode(b)
 }
 func foo(w http.ResponseWriter, r *http.Request) {
